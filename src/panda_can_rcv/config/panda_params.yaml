@@ -1,0 +1,5 @@
+can_listener_node:
+  ros__parameters:
+    mode: "real"  # Options: 'real' or 'test'
+    input_topic: "/csv_can_data"  # Used only in test mode
+    output_topic: "/can/decoded"  # Topic where CAN messages are published
